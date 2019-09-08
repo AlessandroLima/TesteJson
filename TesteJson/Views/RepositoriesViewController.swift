@@ -66,6 +66,7 @@ class RepositoriesViewController: UIViewController, UISearchBarDelegate, Reposit
 
 extension RepositoriesViewController{
     
+    //MARK: Functions
     func setload(_ hasConfirmation:Bool){
         if !hasConfirmation{
             self.aiLoad.stopAnimating()
@@ -78,6 +79,7 @@ extension RepositoriesViewController{
         }
     }
     
+    //MARK: Protocol Functions
     func reloadView(repository:GitHubEntity){
         self.gitHubEntity = repository
         self.gitHubEntityItens = repository.items

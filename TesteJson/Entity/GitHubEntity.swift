@@ -21,8 +21,6 @@ struct Item:Codable{
 
 struct GitHubEntity:Codable{
     
-    let total_count:Int
-    let incomplete_results:Bool
     let items:[Item]
 }
 

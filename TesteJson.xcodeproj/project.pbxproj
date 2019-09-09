@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D24B4AA023246D99003A8956 /* repositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24B4A9F23246D99003A8956 /* repositoriesPresenter.swift */; };
 		D24B4AA3232471C5003A8956 /* RepositoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24B4AA2232471C5003A8956 /* RepositoriesInteractor.swift */; };
+		D24B4B0D2325F0C3003A8956 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D281C69E2322CEB30094C1D8 /* Repository.swift */; };
+		D24B4B0E2325F0ED003A8956 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D281C6A9232338180094C1D8 /* Constants.swift */; };
+		D24B4B0F2325F104003A8956 /* GitHubEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D281C69C2322CA4C0094C1D8 /* GitHubEntity.swift */; };
 		D281C6992322C6DB0094C1D8 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D281C6972322C6DB0094C1D8 /* RepositoriesViewController.swift */; };
 		D281C69A2322C6DB0094C1D8 /* RepositoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D281C6982322C6DB0094C1D8 /* RepositoriesViewController.xib */; };
 		D281C69D2322CA4C0094C1D8 /* GitHubEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D281C69C2322CA4C0094C1D8 /* GitHubEntity.swift */; };
@@ -410,6 +413,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BCAE352322BF6700B1045E /* TesteJsonTests.swift in Sources */,
+				D24B4B0F2325F104003A8956 /* GitHubEntity.swift in Sources */,
+				D24B4B0D2325F0C3003A8956 /* Repository.swift in Sources */,
+				D24B4B0E2325F0ED003A8956 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

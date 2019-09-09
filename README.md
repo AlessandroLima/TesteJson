@@ -6,3 +6,8 @@ Teste usando a clean architecture "VIPER".
 2 - Melhor manutenção futura de código.
 
 3 - Facilidade para implementação de testes.
+
+4 - Baixo acoplamento.
+
+5 - Implementação de testes unitários para o metodo principal "loadRepositories"
+
